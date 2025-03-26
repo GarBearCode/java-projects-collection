@@ -1,5 +1,6 @@
 // File: Expense.java
 // Just a basic class that holds expense info
+// Will be used to store category and amount spent
 
 public class Expense {
     String category;
@@ -10,6 +11,7 @@ public class Expense {
         this.amount = amount;
     }
 
+    // nice format for printing
     public String toString() {
         return category + ": $" + amount;
     }
